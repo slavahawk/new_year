@@ -8,10 +8,10 @@
       </p>
     </header>
     <main class="main-content">
-      <video class="video" src="../public/IMG_4993.MP4" controls></video>
+      <video class="video" :src="Video" controls></video>
       <Button
         as="a"
-        href="../public/IMG_4993.MP4"
+        :href="Video"
         download="IMG_4993.mp4"
         severity="secondary"
         class="download-button"
@@ -38,11 +38,11 @@
 
 <script setup>
 import { Button } from "primevue";
+import Video from "./assets/IMG_4993.mp4";
 </script>
 
 <style scoped>
 .landing {
-  background-color: #fcf8f5;
   color: #1f4f83;
   padding: 20px;
   text-align: center;
