@@ -50,7 +50,7 @@ import Video from "./assets/IMG_4993.mp4";
 
 .header {
   padding: 20px;
-  background-color: #ffcccc;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
