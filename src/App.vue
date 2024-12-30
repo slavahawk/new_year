@@ -43,6 +43,8 @@ import Video from "./assets/IMG_4993.mp4";
 
 <style scoped>
 .landing {
+  margin: 0 auto;
+  max-width: 500px;
   color: #1f4f83;
   padding: 20px;
   text-align: center;
