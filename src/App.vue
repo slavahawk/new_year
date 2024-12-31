@@ -18,11 +18,7 @@
       >
         Скачать видео
       </Button>
-      <p>
-        Если будут проблемы,
-        <a href="https://t.me/slavahawk" target="_blank">напиши мне</a>, скину
-        так)
-      </p>
+      <p>Если будут проблемы, напиши мне, скину так)</p>
       <h2 class="gift-header">Ниже твой скромный подарочек!</h2>
       <Button @click="checkPassword" severity="secondary" class="gift-button"
         >Забрать подарок
