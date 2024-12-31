@@ -24,12 +24,7 @@
         так)
       </p>
       <h2 class="gift-header">Ниже твой скромный подарочек!</h2>
-      <Button
-        as="a"
-        href="https://ga.gift/ru/cb5db3a35f27464fbb15b16967c32ea7"
-        target="_blank"
-        severity="secondary"
-        class="gift-button"
+      <Button @click="checkPassword" severity="secondary" class="gift-button"
         >Забрать подарок
       </Button>
     </main>
@@ -39,6 +34,18 @@
 <script setup>
 import { Button } from "primevue";
 import Video from "./assets/IMG_4993.mp4";
+
+function checkPassword() {
+  let password = prompt("Введите пароль:");
+  let correctPassword = "Вика";
+
+  if (password === correctPassword) {
+    window.location.href =
+      "https://ga.gift/ru/cb5db3a35f27464fbb15b16967c32ea7";
+  } else {
+    alert("Неверный пароль");
+  }
+}
 </script>
 
 <style scoped>
